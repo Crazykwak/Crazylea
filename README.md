@@ -1,0 +1,2 @@
+# Crazylea
+my first repository
