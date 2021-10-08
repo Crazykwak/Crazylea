@@ -1,0 +1,84 @@
+:root {
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+  --base-space: 8px;
+  --size-button: 60px;
+  --size-border: 4px;
+  --size-thumbnail: 50px;
+  --font-size: 18px;
+  --animation-duration: 300ms;
+}
+
+body {
+  background-color: var(--color-black);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  background-color: #37474f;
+  padding: 8px 16px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: var(--animation-duration);
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  background-color: var(--color-black);
+  font-size: var(--font-size);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+button:hover {
+  transform: scale(1.2);
+  transition: var(--animation-duration);
+}
+
+.imgBtn {
+  height: var(--size-button);
+  width: var(--size-button);
+}
+
+.blueBtn {
+  background-color: var(--color-blue);
+  height: var(--size-button);
+  padding: 16px;
+}
+
+.yellowBtn {
+  background-color: var(--color-yellow);
+  height: var(--size-button);
+  padding: 16px;
+}
+
+.pinkBtn {
+  background-color: var(--color-pink);
+  height: var(--size-button);
+  padding: 16px;
+}
+
+.items {
+  height: 60%;
+  width: 60%;
+  list-style: none;
+  overflow-y: scroll;
+  padding-left: 0px;
+}
