@@ -57,19 +57,19 @@ button:hover {
   width: var(--size-button);
 }
 
-.blueBtn {
+.blue {
   background-color: var(--color-blue);
   height: var(--size-button);
   padding: 16px;
 }
 
-.yellowBtn {
+.yellow {
   background-color: var(--color-yellow);
   height: var(--size-button);
   padding: 16px;
 }
 
-.pinkBtn {
+.pink {
   background-color: var(--color-pink);
   height: var(--size-button);
   padding: 16px;
@@ -81,4 +81,24 @@ button:hover {
   list-style: none;
   overflow-y: scroll;
   padding-left: 0px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: center;
+  font-size: var(--font-size);
+  background-color: var(--color-light-grey);
+  margin: 10px;
+}
+
+.item_Thumnail {
+  height: var(--size-thumbnail);
+}
+
+.item_Text {
+  display: flex;
+  justify-content: center;
+  font-size: var(--font-size);
 }
