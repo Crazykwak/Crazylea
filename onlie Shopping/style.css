@@ -75,6 +75,12 @@ button:hover {
   padding: 16px;
 }
 
+.delete {
+  background-color: var(--color-white);
+  height: var(--size-button);
+  padding: 16px;
+}
+
 .items {
   height: 60%;
   width: 60%;
