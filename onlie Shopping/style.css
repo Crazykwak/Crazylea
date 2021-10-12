@@ -82,8 +82,8 @@ button:hover {
 }
 
 .items {
-  height: 60%;
-  width: 60%;
+  height: 40%;
+  width: 40%;
   list-style: none;
   overflow-y: scroll;
   padding-left: 0px;
