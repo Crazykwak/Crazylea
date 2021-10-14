@@ -1,6 +1,11 @@
 "use strict"
 
 //JSON load
+let pick = document.querySelectorAll('.munu button');
+let cnt = 0;
+const addActive = setInterval(activeFunc, 130);
+
+
 function comeOnDB() {
     return fetch('data/data.json')
         .then(Response => Response.json())
@@ -41,6 +46,18 @@ function filte(event, items) {
 
     showMeItem(items.filter(items => items[key] === ans));
 }
+
+
+
+function activeFunc(){
+    pick[cnt].classList.add('active');
+    cnt++;
+    if(cnt >= pick.length){
+        clearInterval(addActive);
+    }
+}
+
+
 
 //실제 동작
 comeOnDB()

@@ -110,7 +110,11 @@ button:hover {
   font-size: var(--font-size);
 }
 
+button:hover {
+  cursor: pointer;
+}
 
-button:hover{
-  cusor = pointer;
+.menu button .active {
+  margin-top: 0;
+  opacity: 1;
 }
