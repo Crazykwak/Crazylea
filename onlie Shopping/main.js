@@ -1,10 +1,6 @@
 "use strict"
 
 //JSON load
-let pick = document.querySelectorAll('.munu button');
-let cnt = 0;
-const addActive = setInterval(activeFunc, 130);
-
 
 function comeOnDB() {
     return fetch('data/data.json')
@@ -25,7 +21,9 @@ function getItem(items) {
 
 function showMeItem(items){
     const container = document.querySelector(`.items`);
-    container.innerHTML = items.map(items => getItem(items)).join('');
+    container.innerHTML = items.map(items => {
+        return getItem(items)   
+    }).join('');
 }
 
 function setEvent(items) {

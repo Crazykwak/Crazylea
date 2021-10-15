@@ -113,8 +113,3 @@ button:hover {
 button:hover {
   cursor: pointer;
 }
-
-.menu button .active {
-  margin-top: 0;
-  opacity: 1;
-}
