@@ -97,7 +97,7 @@ button:hover {
   position: center;
   font-size: var(--font-size);
   background-color: var(--color-light-grey);
-  margin: 10px;
+  margin: 15px;
 }
 
 .item_Thumnail {
