@@ -44,8 +44,6 @@ function filte(event, items) {
 
     showMeItem(items.filter(items => items[key] === ans));
 }
-shti
-
 
 function activeFunc(){
     pick[cnt].classList.add('active');
